@@ -1,0 +1,44 @@
+/* styles.css */
+
+.app {
+    /* Your app styles */
+  }
+  
+  .cart-page {
+    padding: 20px;
+  }
+  
+  .cart-items {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .cart-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  
+  .item-details h3 {
+    margin: 0;
+  }
+  
+  .item-details p {
+    margin: 5px 0;
+  }
+  
+  .item-details button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

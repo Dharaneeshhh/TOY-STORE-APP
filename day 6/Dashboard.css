@@ -1,0 +1,273 @@
+.dashboard-container {
+    padding: 20px;
+    /* background-color: #f0f0f0; */
+
+    height: 100vh;
+    /* background-color: blue; */
+    width: 100vw;
+    background-image: url('https://res.cloudinary.com/disibzsv8/image/upload/v1689240112/vanessa-bucceri-gDiRwIYAMA8-unsplash_v0rmf2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .graph-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Add more CSS styles as needed */
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:200px;
+    margin-left: 100px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  .card-container{
+    display: flex;
+  }
+  /*icons*/
+  @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+/* div styles for presentation */
+div
+{
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+body
+{
+  margin-top: 4em;
+  background-color: #ecf0f1;
+}
+
+/* General rule */
+.button-big
+{
+  font-size: 2.5em;
+  width: 4em;
+  text-align:center;
+  padding: 0.2em 0em 0.2em 0em;
+}
+
+/* Twitter class and animation */
+.twitter
+{
+  color: #0096ff;
+  border: 1px solid #0096ff;
+}
+
+.twitter:hover
+{
+  animation: twitterAnim 0.4s normal forwards linear;
+  -webkit-animation: twitterAnim 0.4s normal forwards linear;
+}
+@keyframes twitterAnim {
+  50% {
+    background-color: #0096ff;
+  }
+  100% {
+    background-color: #0096ff;
+    border: 1px solid #0096ff;
+    color: #fff;
+  }
+}
+
+@-webkit-keyframes twitterAnim {
+  50% {
+    background-color: #0096ff;
+  }
+  100% {
+    background-color: #0096ff;
+    border: 1px solid #0096ff;
+    color: #fff;
+  }
+}
+
+/* Facebook class and animation */
+.facebook
+{
+  color: #3B5998;
+  border: 1px solid #3B5998;
+}
+
+.facebook:hover
+{
+  animation: facebookAnim 0.4s normal forwards linear;
+  -webkit-animation: facebookAnim 0.4s normal forwards linear;
+}
+
+@keyframes facebookAnim {
+  50% {
+    background-color: #3B5998;
+  }
+  100% {
+    background-color: #3B5998;
+    border: 1px solid #3B5998;
+    color: #fff;
+  }
+}
+
+@-webkit-keyframes facebookAnim {
+  50% {
+    background-color: #3B5998;
+  }
+  100% {
+    background-color: #3B5998;
+    border: 1px solid #3B5998;
+    color: #fff;
+  }
+}
+
+/* Google class and animation */
+.insta
+{
+  color: #dd4b39;
+  border: 1px solid #dd4b39;
+}
+
+.insta:hover
+{
+
+  animation: gplusAnim 0.4s normal forwards linear;
+  -webkit-animation: gplusAnim 0.4s normal forwards linear;
+}
+
+@keyframes instaAnim {
+  50% {
+    
+    background-color: #dd4b39;
+  }
+  100% {
+    background-color: #dd4b39;
+    border: 1px solid #dd4b39;
+    color: #fff;
+  }
+ }
+  
+@-webkit-keyframes instaAnim {
+  50% {
+    background-color: #dd4b39;
+  }
+  100% {
+    background-color: #dd4b39;
+    border: 1px solid #dd4b39;
+    color: #fff;
+  }
+}
+
+/* Dribble class and animation */
+.dribbble
+{
+  color: #ea4c89;
+  border: 1px solid #ea4c89;
+}
+
+.dribbble:hover
+{
+  animation: dribbbleAnim 0.4s normal forwards linear;
+  -webkit-animation: dribbbleAnim 0.4s normal forwards linear;
+}
+
+@-webkit-keyframes dribbbleAnim {
+  50% {
+    background-color: #ea4c89;
+  }
+  100% {
+    background-color: #ea4c89;
+    border: 1px solid #ea4c89;
+    color: #fff;
+  }
+}
+  
+@keyframes dribbbleAnim {
+  50% {
+    background-color: #ea4c89;
+  }
+  100% {
+    background-color: #ea4c89;
+    border: 1px solid #ea4c89;
+    color: #fff;
+  }
+}
+/* Yahoo class and animation */
+.yahooo
+{
+  color: #720e9e;
+  border: 1px solid #720e9e;
+}
+
+.yahooo:hover
+{
+  animation: yahoooAnim 0.4s normal forwards linear;
+  -webkit-animation: yahoooAnim 0.4s normal forwards linear;
+}
+
+@-webkit-keyframes yahoooAnim {
+  50% {
+    background-color: #720e9e;
+  }
+  100% {
+    background-color: #720e9e;
+    border: 1px solid #720e9e;
+    color: #fff;
+  }
+}
+@keyframes yahoooAnim {
+  50% {
+    background-color: #720e9e;
+  }
+  100% {
+    background-color: #720e9e;
+    border: 1px solid #720e9e;
+    color: #fff;
+  }
+}
+
+/* Links */
+a
+{
+  color: #9b59b6;
+  text-decoration: none;
+}
+/*sidebar*/
+.sidebar-container {
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar-menu-item:hover {
+  background-color: #555;
+}
+
+  
